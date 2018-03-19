@@ -1,0 +1,97 @@
+body
+{
+	background-image: url("book3.jpg");
+
+}
+div.boxed
+{
+text-align: left;
+background-color: #232f3e;
+color: white;
+}
+
+.button1 {
+	background-color: #f3cc6c;
+	 width: 380px;
+	  height: 35px;
+	   padding: 10px; 
+	   border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-color: black;
+    border-width: thin;
+    padding: 5px;
+
+}
+
+.button1:hover {
+    background-color: #f1b520; 
+
+}
+
+.button2 {
+	
+	 width: 380px;
+	  height: 35px;
+	   padding: 10px; 
+	   border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-color: black;
+    border-width: thin;
+    padding: 5px;
+    
+}
+
+.button2:hover {
+    background-color: #edebe5; 
+
+}
+
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#message1
+{
+	display: none;
+background-color: white;
+color: #262641;
+padding: 3px;
+padding-left: 20px;
+width: 25%;
+border-radius: 25px;
+float: right;
+}
+
+.password-message{
+	margin-top: -400px;
+	margin-left: -100px
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    left: -35px;
+    content: "\2714";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    left: -35px;
+    content: "\2716";
+}

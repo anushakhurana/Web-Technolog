@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME PAGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="start.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Headland One' rel='stylesheet'>
+</head>
+<body>
+<div class="bluebox">
+  <div class="w3-row">
+    <div class="w3-container w3-threequarter">
+	 <input type="text" placeholder="Search" name="search">
+  	<button type="submit"><i class="fa fa-search"></i></button>
+  </div>
+
+  <div class="w3-quarter w3-container">
+  	<div class="fontstyle">
+  		See Today's Deals
+  	</div>
+  </div>
+  </div>
+  	
+
+  	<marquee behavior="scroll" direction="left"><font size="3" color="white">Now get free and faster delivery with AmazonPrime!!!</font></marquee>
+
+  	
+
+    <div class="w3-row">
+  	<div class="topnav" id="myTopnav">
+      <div class="w3-threequarter w3-container">
+  		<a href="signin.html" >SignIn</a>
+  		<a href="newuser.html"  >New User</a>
+  		<a href="mycart.html" >My Cart</a>
+  		<a href="about.html" >About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  </div>
+</div>
+  	
+</div>
+
+
+<div class="slideshow-container">
+<center>
+<div class="mySlides">
+  <img src="amazon1.png" width="100%" height="300">
+</div>
+
+<div class="mySlides">
+  <img src="amazon2.png" width="100%" height="300">
+</div>
+
+<div class="mySlides">
+ <img src="amazon6.png" width="80%" height="300">
+</div>
+</center>
+</div>
+
+<br>
+<div class="headerfont">
+	<b>Explore New Year, New You</b>
+
+</div>
+<div id="bookstore">
+	 <div class="w3-row">
+    
+		<div class="w3-quarter" style="width: 20%"><img src="judas.jpg"  alt="img1" height="300">  </div>
+		<div class="w3-quarter" style="width: 20%"><img src="wrestler.jpg"  alt="img2"  height="300"></div>   
+		<div class="w3-quarter" style="width: 20%"><img src="dove.jpg"  alt="img3"  height="300">  </div>
+		<div class="w3-quarter" style="width: 20%"><img src="finds.jpg"  alt="img4" height="300">  </div>
+		<!-- <div class="w3-col-2 w3-container" style="width: 20%"><img src="spy.jpg"  alt="img5"  height="300"> </div>
+		<div class="w3-col-2 w3-container" style="width: 20%"><img src="spy.jpg"  alt="img5"  height="300"> </div> -->
+
+	</div>
+		
+	
+</div>
+
+<br>
+<br>
+<div class="headerfont">
+	<b>Best Sellers</b>
+</div>
+
+
+<div id="bookstore">
+    <div class="w3-row">
+
+		<div class="w3-col w3-container" style="width: 20%"><img  src="times.jpg"  alt="img6"  height="300">  </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="again.jpg"  alt="img7"  height="300">  </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="shadow.jpg"  alt="img8"  height="300">  </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="confession.jpg"  alt="img9"  height="300">  </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="star.jpg"  alt="img10"  height="300"> </div>
+		
+		</div>
+	
+</div>
+
+
+<br>
+<br>
+<div class="headerfont">
+	<b>More books</b>
+</div>
+
+<div id="bookstore">
+	
+    <div class="w3-row">
+		<div class="w3-col w3-container" style="width: 20%"><img  src="rooster.jpg"  alt="img11"  height="300">  </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="before.jpg"  alt="img12"  height="300">   </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="oath.jpg"  alt="img13"  height="300">   </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="shack.jpg"  alt="img14"  height="300">   </div>
+		<div class="w3-col w3-container" style="width: 20%"><img  src="james.jpg"  alt="img15"  height="300">  </div>
+		</div>
+	
+</div>
+
+
+
+
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 5000);
+}
+</script>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
