@@ -203,3 +203,7 @@ span.psw {
     cursor: pointer;
 }
 
+.center{
+  align-content: center;
+  text-align: center;
+}
